@@ -1,0 +1,259 @@
+body{
+	font-family: arial;
+}
+a{
+	text-decoration: none;
+}
+header{
+	position: absolute;
+	left: 0;
+	right: 0;	
+}
+header h1{
+	float: left;
+	margin-left: 30px;
+	color: white;
+	font-weight: bolder;
+	padding-top: 36px;
+}
+header a{
+	float: right;
+	color: white;
+	margin-right: 30px;
+	padding-top: 36px;
+}
+.slider{
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url('../img/banner.jpg');
+	text-align: center;
+	padding-bottom: 162px;
+	padding-top: 162px;
+}
+.slider i{
+	color: white;
+	border: 2px solid white;
+	padding: 18px 15px;
+    border-radius: 50px;
+}
+.slider h1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: white;
+	font-weight: bolder;
+}
+.slider P{
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	margin-bottom: 45px;
+}
+.slider a{
+	background-color: #51baa4;
+	padding: 22px 44px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.bg-clr{
+	background-color: #eeeeee;
+	padding: 88px 0px;
+}
+.container{
+	max-width: 955px;
+	margin: 0 auto;
+}
+article{
+	background-color: white;
+	margin-bottom: 55px;
+	display: flex;
+}
+article:last-child{
+	flex-direction: row-reverse;	
+}
+.pic{
+	width: 50%;
+}
+.pic img{
+	width: 100%;
+}
+.txt{
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.txt h1{
+	margin-top: 15px;
+	font-weight: bolder;
+	font-size: 24px;
+	color: #555555;
+	line-height: 38px;
+	margin-bottom: 25px;
+}
+.txt p{
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 35px;
+    line-height: 31px;
+    font-weight: bold;
+}
+.txt a{
+	padding: 10px 50px;
+    border-radius: 30px;
+    border: 3px solid #51baa4;
+    color: #51baa4;
+    font-weight: bolder;
+}
+.bg-w{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color: white;
+	text-align: center;
+}
+.bg-w h1{
+	font-weight: bolder;
+	font-size: 40px;
+	color: #25383b;
+	margin-bottom: 40px;
+}
+.bg-w p{
+	color: #25383b;
+	margin-bottom: 60px;
+	line-height: 35px;
+	font-size: 20px;
+
+}
+.photogride{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 58px;
+}
+.gride {
+	width: 25%;
+}
+.gride img{
+	width: 100%;
+	height: 100%;
+}
+.bg-w a{
+	padding: 15px 50px;
+    border-radius: 30px;
+    border: 3px solid #51baa4;
+    color: #51baa4;
+    font-weight: bolder;
+}
+.slider-2{
+	background-image: url('../img/pic11.jpg');
+	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 120px;
+	padding-bottom: 105px;
+}
+.slider-2 h1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 36px;
+	color: white;
+	font-weight: bolder;
+}
+.slider-2 p{
+	color: #d8dadb;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: lighter;
+	margin-bottom: 80px;	
+}
+.slider-2 a{
+	padding: 20px 50px;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bolder;
+}
+.bg-g{
+	background-color: #1e2832;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.bg-g h1{
+	color: white;
+	font-size: 36px;
+	font-weight: bolder;
+	margin-bottom: 40px;
+}
+.bg-g h6{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 65px;
+}
+.bg-g input{
+	width: 35%;
+	padding-left: 5px;
+	height: 40px;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	background-color: #29323c;
+}
+.bg-g textarea{
+	width: 70%;
+	padding-top: 25px;
+	padding-left: 15px;
+	height: 140px;
+	color: #a5a9ad;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	border-radius: 2px;
+	background-color: #29323c;
+}
+.bg-g a{
+	padding: 15px 50px;
+	margin-top: 55px;
+	background-color: #51baa4;
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bolder;
+    margin-bottom: 85px;
+}
+.bg-g a:last-child{
+	background-color: transparent;
+	border: 2px solid white;
+}
+hr{
+	border: 1px solid #343d46;
+	margin-bottom: 90px;
+}
+.bg-g ul li{
+	display: inline;
+	margin-right: 35px;
+	color: #a5a9ad;
+}
+
+@media only screen and (max-width:768px){
+	article{
+		display: block;
+	}
+	.pic,.txt{
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		padding: 20px 0;
+	}
+	.gride{
+		width: 50%;
+	}
+	.bg-g a{
+		display: block;
+		width: 100px;
+		margin: 50px auto;
+	}
+	.bg-g input{
+		width: 74%;
+	}
+}
